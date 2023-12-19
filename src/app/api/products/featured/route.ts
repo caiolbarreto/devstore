@@ -6,5 +6,5 @@ export async function GET() {
     return product.featured
   })
 
-  return NextResponse.json({ featuredProducts })
+  return NextResponse.json(featuredProducts)
 }
