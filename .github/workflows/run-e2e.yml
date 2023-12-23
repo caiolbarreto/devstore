@@ -42,5 +42,5 @@ jobs:
           NEXT_PUBLIC_API_BASE_URL: "https://ignite-devstore-api.vercel.app"
           APP_URL: "http://localhost:3000"
         with:
-          build: pnpm run build
-          start: pnpm start
+          build: npm run build
+          start: npm start
